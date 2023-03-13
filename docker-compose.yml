@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  mining-pools-prometheus-exporter:
+    ports:
+      - '127.0.0.1:52080:52080'
+    container_name: mining-pool-prometheus-exporter
+    environment:
+      - 'POOLS=hiveon:rvn:ADDRESS,'
+      - 'UPDATE_INTERVAL=150'
+    image: r3l0c/mining-pools-prometheus-exporter
