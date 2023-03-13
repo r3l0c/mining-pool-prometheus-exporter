@@ -16,9 +16,9 @@ Comfortable monitoring of mining from several pools and several addresses. The d
 
 #### Settings
 
-Docker env POOLS - comma separated pool list, format: pool:coin:address,pool:coin:address,pool:coin:address,...
+Docker env POOLS - comma separated pool list, format: ```pool:coin:address,pool:coin:address,pool:coin:address,...```
 
-Example: POOLS='2miners:rvn:RDhh3HpPa3rsE6B43VZkmKaQZ2Caif8vzW,hiveon:rvn:RDhh3HpPa3rsE6B43VZkmKaQZ2Caif8vzW'
+Example: ```POOLS='2miners:rvn:RDhh3HpPa3rsE6B43VZkmKaQZ2Caif8vzW,hiveon:rvn:RDhh3HpPa3rsE6B43VZkmKaQZ2Caif8vzW'```
 
 Docker env UPDATE_INTERVAL - update stats from pool interval
 
